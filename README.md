@@ -32,6 +32,7 @@ If you are still having issues importing from `keras-retinanet`, try `export PYT
 For Centos issue
 
 sudo yum -y install gcc
+
 sudo yum install python-devel
 
 # Data
