@@ -29,6 +29,11 @@ To install keras-retinanet:
 
 If you are still having issues importing from `keras-retinanet`, try `export PYTHONPATH="${PYTHONPATH}:$TOP/models/RetinaNet/"` with the absolute file path. 
 
+For Centos issue
+
+sudo yum -y install gcc
+sudo yum install python-devel
+
 # Data
 
 We strongly recommend sticking with the directories specified in `SETTINGS.json`. There is no guarantee that the code will work as intended if changes are made. We will provide instructions for training and testing on the challenge data.  
